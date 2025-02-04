@@ -1,0 +1,679 @@
+    /* ...............2X Large (2xl)............ */
+    @media (max-width: 1536px) {
+      .container {
+        width: 90%;
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+
+
+
+
+
+
+    }
+
+
+    /* ...........Extra Large.......... (xl) */
+    @media (max-width: 1280px) {
+      .container {
+        width: 100% !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+
+      }
+
+      /* ..........nav Section */
+
+      #nav .logo {
+        width: 150px;
+      }
+
+      #nav .contect-btn button {
+        padding: 12px 20px;
+
+      }
+
+      #nav .contect-btn button a {
+        font-size: 14px;
+      }
+
+
+      /* ......what will you get */
+
+      #what-you-get .what-you-get-content {
+
+        gap: 20px 5px;
+      }
+
+      #what-you-get .what-you-get-boxes {
+        padding: 10px 0;
+      }
+
+      #what-you-get h4 {
+        font-size: 16px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    /* ................Large (lg).................... */
+    @media (max-width: 1024px) {
+
+      /* ..........nav Section */
+      #nav .logo {
+        width: 250px;
+      }
+
+      .nav-links {
+        position: absolute;
+        flex-direction: column;
+        top: 30px;
+        right: 0;
+        background-color: white;
+        width: 100%;
+        opacity: 0;
+      }
+
+      .nav-bars {
+        display: block;
+        padding-left: 250px;
+      }
+
+      /* .nav-bars:hover .nav-links{
+      background-color: aqua;
+    } */
+
+
+
+
+      /* .....#our-customers Section .... */
+      #our-customers .our-customers-img {
+        grid-template-columns: auto auto auto;
+      }
+
+
+
+      /* ......what will you get */
+
+      #what-you-get .what-you-get-content {
+
+        gap: 20px 5px !important;
+      }
+
+      #what-you-get .what-you-get-boxes {
+        padding: 10px 0;
+      }
+
+      #what-you-get .what-you-get-boxes h4 {
+        font-size: 14px;
+      }
+
+
+
+
+      /* ...Blog & News Section Start here....... */
+
+
+      #blog-news .blog-news-content {
+        justify-content: space-evenly;
+      }
+
+      #blog-news .blog-news-content-cards {
+        width: 45%;
+      }
+
+
+
+      /* .........Contect US Section Start here..... */
+      #contect-us .contect-us-form {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+
+
+      /* ......Footer Section Start here....... */
+      footer .footer-menu {
+
+        gap: 10px;
+
+      }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    /*................. Medium (md) ..................*/
+
+
+
+    @media (max-width: 768px) {
+
+
+      /* ..........nav Section */
+
+      #nav .nav-bars {
+        padding-left: 50px !important;
+      }
+
+
+      #nav .contect-btn button {
+        padding: 15px 30px !important;
+
+      }
+
+      #nav .contect-btn button a {
+        font-size: 16px !important;
+
+      }
+
+
+      /* ............main Section.... */
+
+      main {
+        margin-top: 150px !important;
+
+      }
+
+      /* .....#our-customers Section .... */
+      #what-you-get h2 {
+        font-size: 28px;
+
+      }
+
+      #our-customers .our-customers-content {
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #our-customers h2 {
+        max-width: 100%;
+        line-height: 60px;
+      }
+
+      #our-customers p {
+        max-width: 100%;
+        line-height: 30px;
+        font-size: 18px !important;
+      }
+
+
+
+      /* #our-customers .our-customers-img .our-customers-img-box {
+      width: 150px;
+
+    } */
+
+
+      /* ......what will you get */
+
+      #what-you-get .what-you-get-content {
+        grid-template-columns: auto auto auto;
+      }
+
+      #what-you-get .what-you-get-boxes h4 {
+        font-size: 18px !important;
+      }
+
+
+      /* ..Our Features Section Start here.... */
+
+
+      #our-features .features-title-text {
+        width: 100%;
+        flex-direction: column;
+      }
+
+      #our-features .features-title {
+        align-items: start;
+      }
+
+      #our-features .features-title-line {
+        display: none;
+      }
+
+      #our-features .features-title-text a {
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.196);
+
+      }
+
+      #our-features .features-title-text .active {
+        border-bottom-style: solid;
+      }
+
+      #our-features .features-title-text .active::after,
+      #our-features .features-title-text .active::before {
+        display: none;
+      }
+
+
+      #our-features .our-features-content .ofc-boxes {
+        flex-direction: column;
+      }
+
+      #our-features .our-features-content .ofc-boxes .ofc-img,
+      .ofc-text {
+        width: 100%;
+      }
+
+      #our-features .our-features-content .ofc-boxes .ofc-img {
+        width: 80%;
+        align-self: center;
+      }
+
+
+
+
+
+      /* ...Blog & News Section Start here....... */
+
+
+
+      #blog-news .blog-news-content-cards {
+        width: 100%;
+      }
+
+      .blog-news-content-cards-img {
+        height: 400px;
+
+      }
+
+      .blog-news-content-cards-img img {
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+
+
+
+      /* ......Footer Section Start here....... */
+      footer .footer-menu {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+      }
+
+      footer .footer-logo {
+        margin: 0 auto;
+      }
+
+
+
+
+
+    }
+
+
+
+
+
+    /* ................Small (sm)....................... */
+    @media (max-width: 640px) {
+
+      /* ..........nav Section */
+      nav .address {
+        display: none !important;
+      }
+
+      #nav .contect-btn {
+        display: none !important;
+      }
+
+
+
+      main .main-content {
+        flex-direction: column;
+      }
+
+      /* .......Our Services */
+
+      #our-services h3 {
+        font-size: 22px !important;
+      }
+
+      #our-services .our-services-icones {
+        display: none;
+      }
+
+      #our-services .our-services-content {
+        justify-content: space-evenly !important;
+      }
+
+      #our-services .active {
+        display: block !important;
+
+      }
+
+
+      /* .....#our-customers Section ..... */
+
+
+
+
+      #our-customers h2 {
+        max-width: 100% !important;
+        font-size: 36px;
+        line-height: 60px;
+      }
+
+      #our-customers p {
+        max-width: 100% !important;
+        line-height: 30px;
+        font-size: 18px !important;
+      }
+
+
+
+      #our-customers .our-customers-img .our-customers-img-box {
+        width: 150px;
+
+      }
+
+
+
+      /* ......what will you get */
+
+      #what-you-get .what-you-get-content {
+        grid-template-columns: auto !important;
+      }
+
+      #what-you-get h4 {
+        font-size: 14px !important;
+      }
+
+      #what-you-get img {
+        width: 20% !important;
+      }
+
+
+      /* ..Our Features Section Start here.... */
+      #our-features .our-features-content .ofc-text {
+        padding: 0 30px;
+      }
+
+      #our-features .our-features-content p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      #our-features .our-features-content .mobial-svg {
+        width: 50px;
+      }
+
+      #our-features .our-features-content .ofc-boxes .ofc-img {
+        width: 60%;
+
+      }
+
+      #our-features .features-title-text a {
+        font-size: 12px;
+        padding: 10px 20px;
+
+      }
+
+      #our-features .features-title-text {
+        gap: 10px;
+      }
+
+      #our-features .our-features-content {
+        padding-top: 50px;
+      }
+
+
+
+      /* ...Blog & News Section Start here....... */
+
+
+
+
+      .blog-news-content-cards-img {
+        height: 200px;
+
+      }
+
+      .blog-news-content-cards-img img {
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+
+      /* .........Contect US Section Start here..... */
+      #contect-us h2 {
+        font-size: 28px;
+      }
+
+      #contect-us p {
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+
+      #contect-us .contect-us-form form input {
+        font-size: 14px;
+      }
+
+      #contect-us .contect-us-form form #sms {
+        font-size: 14px;
+      }
+
+
+
+
+
+    }
+
+
+
+
+    /* Extra Small (xs) */
+    @media (max-width: 475px) {
+
+      /* ..........Main Section.......... */
+
+      .main-content h3 {
+        font-size: 32px;
+        line-height: 40px;
+      }
+
+      .main-img {
+        width: 100%;
+      }
+
+      /* .............. #our-services.. */
+
+      #our-services {
+        background-color: #21A5D5;
+        padding: 50px 0;
+      }
+
+
+      /* .............. #our-customers............ */
+      #our-customers .our-customers-img .our-customers-img-box {
+        width: 90px;
+
+      }
+
+      /* ..Our Features Section Start here.... */
+
+
+      #our-features .our-features-content h5 {
+        font-size: 16px;
+      }
+
+      #our-features .our-features-content h3 {
+        font-size: 28px;
+        margin-bottom: 0;
+      }
+
+      /* ...Blog & News Section Start here....... */
+      #blog-news h3 {
+        font-size: 18px;
+      }
+
+      #blog-news h2 {
+        font-size: 22px;
+      }
+
+      #blog-news .blog-news-content-cards p {
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+
+
+      /* .........Contect US Section Start here..... */
+      #contect-us h2 {
+        font-size: 24px;
+      }
+
+      #contect-us p {
+        line-height: 25px;
+        font-size: 14px;
+      }
+
+      footer h2 {
+        font-size: 24px;
+      }
+
+      footer .footer-head {
+        padding: 40px 0;
+
+      }
+
+      footer .footer-menu {
+padding: 20px 0;
+        gap: 10px 0;
+        justify-content: space-between;
+
+      }
+
+      footer .social-media-icons {
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      footer .social-media-icons i {
+        font-size: 16px;
+      }
+
+      footer .footer-menu a {
+        font-size: 12px;
+      }
+
+      footer .footer-logo {
+        width: 80px;
+      }
+
+      footer .footer-menu .link-title {
+        margin-bottom: 8px;
+
+      }
+
+      footer .footer-menu li {
+        padding-top: 5px;
+      }
+
+      footer h4 {
+        font-size: 14px;
+      }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    /* ................Extra Extra Small (xxs) ................*/
+    @media (max-width: 375px) {
+
+
+      #nav .logo {
+        width: 180px;
+      }
+
+
+      .main-content h3 {
+        font-size: 26px !important;
+        line-height: 30px !important;
+      }
+
+      .main-img {
+        width: 100%;
+      }
+
+
+      #our-customers .our-customers-img .our-customers-img-box {
+        width: 80px !important;
+
+      }
+
+
+
+      /* ..Our Features Section Start here.... */
+
+
+      #our-features .our-features-content .ofc-text h5 {
+        font-size: 20px;
+        padding: 10px 0;
+        white-space: nowrap;
+      }
+
+      #our-features .our-features-content h3 {
+        font-size: 22px;
+        font-weight: 700;
+
+      }
+
+      /* ...Blog & News Section Start here....... */
+      #blog-news h3 {
+        font-size: 16px;
+      }
+
+      #blog-news h2 {
+        font-size: 18px;
+      }
+
+
+
+
+
+
+
+
+    }
